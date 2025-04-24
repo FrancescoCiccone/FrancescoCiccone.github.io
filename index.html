@@ -23,7 +23,7 @@
       background-color: #029c64;
       display: flex;
       justify-content: center;
-      gap: 2rem;
+      gap: 0.5rem;
     }
 
     nav a {
@@ -35,7 +35,7 @@
     }
 
     nav a:hover {
-      background-color: #555;
+      background-color: #11c382;
       border-radius: 5px;
     }
 
@@ -58,7 +58,12 @@
 
     .menu{
         display: flex;
-        align-items: center
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+        background-color: #f4f4f4;
+        text-align: center;
     }
 
   </style>
@@ -68,14 +73,17 @@
   <header>
 
     <div class="menu">
-        <img src="immagini/immagineProfilo.jpg" alt="Descrizione dell'immagine" style="margin-right: 20px; max-width: 150px; height: auto;">
-        <nav>
+      <img src="immagini/immagineProfilo.jpg" alt="Descrizione dell'immagine" style="margin-right: 20px; max-width: 150px; height: auto;">
+      <div>
+        <h1>Francesco Ciccone</h1>
+          <nav>
             <a href="#esperienze">Esperienze</a>
             <a href="#formazione">Formazione</a>
             <a href="#progetti">Progetti</a>
             <a href="#passioni">Passioni</a>
-        </nav>
+          </nav>
       </div>
+    </div>
 
   </header>
 
